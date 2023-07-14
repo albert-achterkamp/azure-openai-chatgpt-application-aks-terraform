@@ -457,6 +457,7 @@ variable "tags" {
   description = "(Optional) Specifies tags for all the resources"
   default     = {
     createdWith = "Terraform"
+    deployment  = "ops100_ai"
   }
 }
 
